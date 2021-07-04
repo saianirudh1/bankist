@@ -86,7 +86,7 @@ nav {
   grid-template-columns: 4fr 3fr;
   grid-template-rows: auto repeat(3, 15rem) auto;
   gap: 2rem;
-  /* opacity: 0; */
+  opacity: 0;
   transition: all 1s;
 }
 
@@ -127,6 +127,13 @@ nav {
   display: flex;
   align-items: center;
   border-bottom: 1px solid #eee;
+}
+
+.movements__num {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #666;
+  padding: 1.1rem;
 }
 
 .movements__type {
@@ -287,4 +294,9 @@ h2 {
 
 .timer {
   font-weight: 600;
+}
+
+.invalid {
+  border-color: #f5465d;
+  color: #f5465d;
 }
